@@ -1,9 +1,10 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 
 const MarkdownEditor = ({rawMarkDown}) => {
   return (
     <div>
-        {rawMarkDown}
+        <ReactMarkdown>{rawMarkDown}</ReactMarkdown>
     </div>
   )
 }
